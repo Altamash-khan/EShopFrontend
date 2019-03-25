@@ -10,10 +10,10 @@
   <br><br>
   <div class="row">
     <div class="col-sm-5">
-      <p><font size="3" color="gold">Contact us and we'll get back to you within 24 hours.</font></p>
-      <p><font size="2" color="gold"><span class="glyphicon glyphicon-map-marker"></span> Mumbai</font></p>
-      <p><font size="2" color="gold"><span class="glyphicon glyphicon-phone"></span> 9167059453</font></p>
-      <p><font size="2" color="gold"><span class="glyphicon glyphicon-envelope"></span> Altamash@gmail.com</font></p> 
+      <p><font size="3" color="white">Contact us and we'll get back to you within 24 hours.</font></p>
+      <p><font size="2" color="white"><span class="glyphicon glyphicon-map-marker"></span> Mumbai</font></p>
+      <p><font size="2" color="white"><span class="glyphicon glyphicon-phone"></span> 9167059453</font></p>
+      <p><font size="2" color="white"><span class="glyphicon glyphicon-envelope"></span> Altamash@gmail.com</font></p> 
     </div>
     <div class="col-sm-7">
       <div class="row">

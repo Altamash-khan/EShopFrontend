@@ -3,17 +3,17 @@
 <table align="center" class="table table-bordered">
 <tr><td colspan="5"><h3 align="center"><font face="timesnewroman" color="black">Your Order</font></h3></td></tr>
 <tr>
-	<td><font face="verdana" color="gold">Product Name</font></td>
-	<td><font face="verdana" color="gold">Price</font></td>
-	<td><font face="verdana" color="gold">Quantity</font></td>
-	<td><font face="verdana" color="gold">Total Price</font></td>
+	<td><font face="verdana" color="white">Product Name</font></td>
+	<td><font face="verdana" color="white">Price</font></td>
+	<td><font face="verdana" color="white">Quantity</font></td>
+	<td><font face="verdana" color="white">Total Price</font></td>
 </tr>
 <c:forEach items="${cartItemList}" var="cartItemList">
 <tr>
-	<td><font face="timesnewroman" color="yellow">${cartItemList.productName }</font></td>
-	<td><font face="timesnewroman" color="yellow">${cartItemList.price }</font></td>
-	<td><font face="timesnewroman" color="yellow">${cartItemList.quantity }</font></td>
-	<td><font face="timesnewroman" color="yellow">${cartItemList.quantity*cartItemList.price }</font></td>
+	<td><font face="timesnewroman" color="black">${cartItemList.productName }</font></td>
+	<td><font face="timesnewroman" color="black">${cartItemList.price }</font></td>
+	<td><font face="timesnewroman" color="black">${cartItemList.quantity }</font></td>
+	<td><font face="timesnewroman" color="black">${cartItemList.quantity*cartItemList.price }</font></td>
 </tr>
 </c:forEach>
 <tr>

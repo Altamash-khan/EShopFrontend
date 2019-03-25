@@ -70,9 +70,9 @@
 </tr>
 <c:forEach items="${supplierList}" var="supplier">
 <tr>
-	<td><font face="timesnewroman" color="yellow">${supplier.supplierId }</font></td>
-	<td><font face="timesnewroman" color="yellow">${supplier.supplierName }</font></td>
-	<td><font face="timesnewroman" color="yellow">${supplier.address }</font></td>
+	<td><font face="timesnewroman" color="black">${supplier.supplierId }</font></td>
+	<td><font face="timesnewroman" color="black">${supplier.supplierName }</font></td>
+	<td><font face="timesnewroman" color="black">${supplier.address }</font></td>
 	<td>
 	<a href="<c:url value="/deleteSupplier/${supplier.supplierId }"/>"class="btn btn-danger">Delete</a>
 	<a href="<c:url value="/editSupplier/${supplier.supplierId }"/>"class="btn btn-info">Edit</a>	

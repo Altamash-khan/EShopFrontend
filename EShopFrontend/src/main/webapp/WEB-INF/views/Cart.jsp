@@ -3,11 +3,11 @@
 <table align="center" class="table table-bordered">
 <tr><td colspan="5"><h3 align="center"><font face="timesnewroman" color="gold" >Your Cart</font></h3></td></tr>
 <tr>
-	<td><font face="verdana" color="gold">Product Name</font></td>
-	<td><font face="verdana" color="gold">Price</font></td>
-	<td><font face="verdana" color="gold">Quantity</font></td>
-	<td><font face="verdana" color="gold">Total Price</font></td>
-	<td><font face="verdana" color="gold">Operations</font></td>
+	<td><font face="verdana" color="white">Product Name</font></td>
+	<td><font face="verdana" color="white">Price</font></td>
+	<td><font face="verdana" color="white">Quantity</font></td>
+	<td><font face="verdana" color="white">Total Price</font></td>
+	<td><font face="verdana" color="white">Operations</font></td>
 </tr>
 <c:forEach items="${cartItemList}" var="cartItemList">
 <form action="<c:url value="/UpdateCartItem/${cartItemList.cartItemId }"/>" method="post">
@@ -24,7 +24,7 @@
 </form>
 </c:forEach>
 <tr>
-	<td colspan="3"><font face="verdana" color="gold">Grand Total</font></td>
+	<td colspan="3"><font face="verdana" color="white">Grand Total</font></td>
 	<td><b>${grandTotalPrice}</b></td>
 </tr>
 <tr>

@@ -35,7 +35,7 @@
     margin: 1em 0 0;
 }
 
-.about-inner-column ul li a {
+.about-inner-column ul li a
     color:#FFD700;
 
 
@@ -52,7 +52,7 @@
 			</div>
 			<div class="about-inner-section">	
 			    <div class="col-md-6 about-right">
-				<img src="resources/images/moto4.jpg" Width="250" height="250" alt=" ">
+				<img src="resources/milogo.png" Width="250" height="250" alt=" ">
 			</div>
 				<div class="col-md-6 about-inner-column">
 					<h4>Please vist our Website  </h4>

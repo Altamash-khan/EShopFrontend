@@ -75,8 +75,8 @@ public class CartController
 		cartItem.setPrice(product.getPrice());
 		cartItem.setQuantity(quantity);
 		cartItem.setPstatus("NP");
-		
-		m.addAttribute("cartItems",cartDAO.addCartItem(cartItem));		
+		cartDAO.addCartItem(cartItem);	
+		m.addAttribute("cartItemList",cartItem);		
 		return "Cart";
 	}
 	

@@ -7,7 +7,7 @@
 <table align="center">
 
 <tr>
-	<td colspan="2"><center><b><u><font size="4" face="verdana" color="black">Enter Product Detail</font></u></b></br></center></td>
+	<td colspan="2"><center><b><u><font size="4" face="verdana" color="gold">Enter Product Detail</font></u></b></br></center></td>
 </tr>
 <tr>
 	<td><b>Product Name</b></td>
@@ -113,13 +113,13 @@
 </tr>
 <c:forEach items="${productList}" var="product">
 <tr>
-	<td><font face="timesnewroman" color="yellow">${product.productId }</font></td>
-	<td><font face="timesnewroman" color="yellow">${product.productName }</font></td>
-	<td><font face="timesnewroman" color="yellow">${product.productDesc }</font></td>
-	<td><font face="timesnewroman" color="yellow">${product.price }</font></td>
-	<td><font face="timesnewroman" color="yellow">${product.quantity }</font></td>
-	<td><font face="timesnewroman" color="yellow">${product.categoryId}</font></td>
-	<td><font face="timesnewroman" color="yellow">${product.supplierId }</font></td>
+	<td><font face="timesnewroman" color="black">${product.productId }</font></td>
+	<td><font face="timesnewroman" color="black">${product.productName }</font></td>
+	<td><font face="timesnewroman" color="black">${product.productDesc }</font></td>
+	<td><font face="timesnewroman" color="black">${product.price }</font></td>
+	<td><font face="timesnewroman" color="black">${product.quantity }</font></td>
+	<td><font face="timesnewroman" color="black">${product.categoryId}</font></td>
+	<td><font face="timesnewroman" color="black">${product.supplierId }</font></td>
 	<td>
 	<a href="<c:url value="/deleteProduct/${product.productId }"/>" class="btn btn-danger">Delete</a>
 	<a href="<c:url value="/editProduct/${product.productId }"/>" class="btn btn-info">Edit</a>	

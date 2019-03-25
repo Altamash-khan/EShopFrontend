@@ -8,31 +8,31 @@
 	</td>
 </tr>
 <tr>
-	<td><font face="timesnewroman" color="gold">Product Id</font></td>
+	<td><font face="timesnewroman" color="black">Product Id</font></td>
 	<td><font face="verdana" color="white">${product.productId}</font></td>
 </tr>
 
 <tr>
-	<td><font face="timesnewroman" color="gold">Product Name</font></td>
+	<td><font face="timesnewroman" color="black">Product Name</font></td>
 	<td><font face="verdana" color="white">${product.productName}</font></td>
 </tr>
 
 <tr>
-	<td><font face="timesnewroman" color="gold">Price</font></td>
+	<td><font face="timesnewroman" color="black">Price</font></td>
 	<td><font face="verdana" color="white">${product.price}</font></td>
 </tr>
 
 <tr>
-	<td><font face="timesnewroman" color="gold">Supplier Id</font></td>
+	<td><font face="timesnewroman" color="black">Supplier Id</font></td>
 	<td><font face="verdana" color="white">${product.supplierId}</font></td>
 </tr>
 
 <tr>
-	<td><font face="timesnewroman" color="gold">Product Description</font></td>
+	<td><font face="timesnewroman" color="black">Product Description</font></td>
 	<td><font face="timesnewroman" color="white">${product.productDesc}</font></td>
 </tr>
 <tr>
-	<td><font face="timesnewroman" color="gold">Quantity</font></td>
+	<td><font face="timesnewroman" color="black">Quantity</font></td>
 	<td><input type="text" name="quantity" required></td>
 </tr>
 

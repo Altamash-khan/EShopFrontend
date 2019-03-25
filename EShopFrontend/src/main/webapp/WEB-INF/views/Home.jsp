@@ -1,4 +1,4 @@
-<body style="background-color:rgb(162,255,255)">
+<body style="background-color:rgb(255, 64, 0)">
 <%@include file="Header.jsp"%>
 <html lang="en">
 <head>
