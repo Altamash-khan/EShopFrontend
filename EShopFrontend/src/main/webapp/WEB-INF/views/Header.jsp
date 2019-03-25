@@ -33,7 +33,7 @@
 				<c:if test="${sessionScope.role=='ROLE_USER' }">
 				<ul class="nav navbar-nav">			
 				<li class="active"><a href="<c:url value="/Home"/>">Home</a>
-				
+				<li><a href="<c:url value="/ProductCatalog"/>">Product Catalog</a></li>
 				
 			</ul>
 			</c:if></c:if>
@@ -62,7 +62,7 @@
 			
 	
 			<div class="nav navbar-nav navbar-right">
-			<li><a href="<c:url value="/ProductCatalog"/>">Product Catalog</a></li>
+				<li><a href="<c:url value="/ProductCatalog"/>">Product Catalog</a></li>
 			 <li><a href="<c:url value="/AboutUs"/>">About Us</a></li>
     		 <li><a href="<c:url value="/ContactUs"/>">Contact Us</a></li>
 			 <c:if test="${sessionScope.loggedIn }">

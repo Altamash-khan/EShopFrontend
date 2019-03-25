@@ -3,7 +3,7 @@
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <%@include file="Header.jsp"%>
-<center><b><h4>ADMIN Home</h4></b> </center>
+<center><b><h4><font face="verdana" color="gold">ADMIN Home</h4></b> </center>
 
 
 

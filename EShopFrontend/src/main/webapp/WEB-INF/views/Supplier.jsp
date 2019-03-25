@@ -7,7 +7,7 @@
 <table align="center">
 
 <tr>
-	<td colspan="2"><center><b><font size="4" face="verdana" color="black">Enter Supplier Details</font></b><br></br></center></td>
+	<td colspan="2"><center><b><font size="4" face="verdana" color="gold">Enter Supplier Details</font></b><br></br></center></td>
 </tr>
 <tr>
 	<td><b>Supplier Name</b></td>

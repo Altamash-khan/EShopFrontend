@@ -1,7 +1,7 @@
 <%@include file="Header.jsp"%>
 
 <table align="center" class="table table-bordered">
-<tr><td colspan="5"><h3 align="center"><font face="timesnewroman" color="black">Your Order</font></h3></td></tr>
+<tr><td colspan="5"><h3 align="center"><font face="timesnewroman" color="gold">Your Order</font></h3></td></tr>
 <tr>
 	<td><font face="verdana" color="white">Product Name</font></td>
 	<td><font face="verdana" color="white">Price</font></td>
