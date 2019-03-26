@@ -11,7 +11,7 @@
                     <h1 align="center"><font face="verdana" color="white">Buy at Mobile-Shop</font></h1>
                     <h3 align="center"><font face="verdana" color="white"> Best Mobile And other product at Low prices.</font></h3>
                     <h3 align="center"><a class="btn btn-lg btn-primary site-btn" href="<c:url value="/AboutUs"/>">Learn More</a>
-                    <a class="btn btn-lg btn-primary site-btn" href="<c:url value="/ProductCatalog"/>">See our products</a></h3>
+                    
                 </div>
 </body>
 </html>

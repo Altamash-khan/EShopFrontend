@@ -10,7 +10,7 @@
   <br><br>
   <div class="row">
     <div class="col-sm-5">
-      <p><font size="3" color="white">Contact us and we'll get back to you within 24 hours.</font></p>
+      <p><font size="3" color="white">Contact us.</font></p>
       <p><font size="2" color="white"><span class="glyphicon glyphicon-map-marker"></span> Mumbai</font></p>
       <p><font size="2" color="white"><span class="glyphicon glyphicon-phone"></span> 9167059453</font></p>
       <p><font size="2" color="white"><span class="glyphicon glyphicon-envelope"></span> Altamash@gmail.com</font></p> 
@@ -27,7 +27,7 @@
       <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
       <div class="row">
         <div class="col-sm-12 form-group">
-          <button class="btn btn-default pull-right" type="submit">Send</button>
+          <button class="btn btn-default pull-right" type="submit"><a href="<c:url value="/Response"/>">Send</button>
         </div>
       </div> 
     </div>

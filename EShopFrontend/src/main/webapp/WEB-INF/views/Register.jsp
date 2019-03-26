@@ -5,8 +5,8 @@
 
 <form action="addUser" modelAttribute="user" method="post">
 <table align="center">
-<h3 align="center"><font face="TimenewsRoman"color="black">Please Sign Up Here</font></h3>
-<tr><td colspan="2"><center><b><h4><font face="TimenewsRoman"color="black">ENTER TO SIGNUP</font></b></h4></center></td></tr>
+<h3 align="center"><font face="TimenewsRoman"color="gold">Please Sign Up Here</font></h3>
+<tr><td colspan="2"><center><b><h4><font face="TimenewsRoman"color="gold">ENTER TO SIGNUP</font></b></h4></center></td></tr>
 <br></br>
 <tr><td><b><h4><font face="verdana" color="gold">Full Name</font></h4></b></td><td><input type="text" name="customerName"></td></tr>
 <tr><td><b><h4><font face="verdana" color="gold">Username</font></h4></b></td><td><input type="text" name="username"></td></tr>
