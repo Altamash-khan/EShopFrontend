@@ -29,6 +29,7 @@
         <div class="col-sm-12 form-group">
           <button class="btn btn-default pull-right" type="submit"><a href="<c:url value="/Response"/>">Send</button>
         </div>
+        
       </div> 
     </div>
   </div>
