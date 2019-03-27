@@ -27,7 +27,7 @@
 </c:if>
 
 <c:if test="${!flag}">
-<form:form action="http://localhost:8080/Project_Frontend/UpdateCategory/${category.categoryId }" modelAttribute="category" method="post" >
+<form:form action="http://localhost:8080/EShopFrontend/UpdateCategory/${category.categoryId }" modelAttribute="category" method="post" >
 <table align="center">
 
 <tr>

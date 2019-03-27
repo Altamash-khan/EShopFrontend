@@ -63,7 +63,10 @@ public class OrderController
 		orderDetail.setPmode(pmode);
 		orderDetail.setTotalShoppingAmount((int)this.calcGrandTotalValue(listCartItems));
 		orderDAO.insertOrderDetail(orderDetail);
-		
+		for (int i=0; i<listCartItems.size();i++)
+		{
+			cartDAO.deleteCartItem(listCartItems.remove(i));
+		}
 		return "ThankYou";
 	}
 	@RequestMapping(value="/Invoice")

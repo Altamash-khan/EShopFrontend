@@ -30,7 +30,7 @@
 </c:if>
 
 <c:if test="${!flag}">
-<form:form action="http://localhost:8080/Project_Frontend/UpdateSupplier/${supplier.supplierId}" modelAttribute="supplier" method="post">
+<form:form action="http://localhost:8080/EShopFrontend/UpdateSupplier/${supplier.supplierId}" modelAttribute="supplier" method="post">
 <table align="center">
 
 <tr>
